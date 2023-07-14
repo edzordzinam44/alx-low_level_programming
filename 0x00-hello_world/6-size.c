@@ -12,9 +12,9 @@ int main(void)
 	float e;
 
 printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
-printf("Sive of an integer: %lu bute(s)\n", (unsigned long)sizeof(b));
+printf("Sive of an integer: %lu byte(s)\n", (unsigned long)sizeof(b));
 printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(c));
 printf("Size of a long long int: byte(s)\n", (unsigned long)sizeof(d));
 printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(e));
-return (0);
+return main (0);
 }
