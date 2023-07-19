@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - Entry point 
+ * print_alphabet - Entry point
  * Description: Prints alpahbets in lowecase only
  * Return: 0 (Success)
  */
