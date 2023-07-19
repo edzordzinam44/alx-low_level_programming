@@ -1,14 +1,22 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main - Entry point
- * Description: A program that prints putchar
+ * Description: Print "_putchar" followed by a new line
  * Return: 0 (Success)
  */
 
 int main(void)
 {
-	printf("putchar\n");
+	char myVar[] = "_putchar";
+	int i = 0;
+
+	while (myVar[i] != '\0')
+	{
+		_putchar(myVar[i]);
+		i++;
+	}
+	_putchar('\n');
 
 	return (0);
 }
