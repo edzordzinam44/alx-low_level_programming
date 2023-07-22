@@ -9,26 +9,16 @@
 
 int main(void)
 {
+	int c;
 	long num = 612852475143;
-	long c;
 
-	while (num % 2 == 0)
+	for (c = (int) sqrt(num); c > 2; c++)
 	{
-		num = num / 2;
-	}
-
-	for (c = 3; c <= sqrt(num); c = c + 2)
-	{
-		while (num % c == 0)
+		if (num % c == 0)
 		{
-			num = num / c;
+			printf("%d\n", c);
+			break;
 		}
 	}
-
-	if (num > 2)
-	{
-		printf("%ld\n", num);
-	}
-
 	return (0);
 }
