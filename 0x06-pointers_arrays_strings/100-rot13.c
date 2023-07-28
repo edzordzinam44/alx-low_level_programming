@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * rot13 - function that encodes a string using rot13
+ * rot13 - A function that encodes a string using rot13
  * @s: a string
- * Description: 13 alphabets in inverse over each other
+ * Description: letter print in inverse over each other
  * Return: Success
  */
 
@@ -12,7 +12,7 @@ char *rot13(char *s)
 	int i, j;
 
 	char a[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-	char b[] = "MNOPQRSTUVWXYZABCDEFGHIJKLmnopqrstuvwxyzabcdefghijkl";
+	char b[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
