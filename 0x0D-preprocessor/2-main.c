@@ -10,5 +10,5 @@ int main(void)
 {
 	printf("Compiled the file from: %s\n", __FILE__);
 
-	return 0:
+	return (0);
 }
