@@ -3,19 +3,7 @@
 
 #include <stdio.h>
 
-#define ABS(x) ((c) < 0 ? -(x) : (x))
-/**
- * main - Write a function-like macro ABS(x)
- *
- * Return: 0 (Success)
- */
+#define ABS(x) ((x) < 0 ? -(x) : (x))
 
-int main(void)
-{
-	int num = -9;
-	int abs_num = ABS(num);
+#endif
 
-	print("Absolute value of %d is %d\n", num, abs_num);
-
-	return (0);
-}
