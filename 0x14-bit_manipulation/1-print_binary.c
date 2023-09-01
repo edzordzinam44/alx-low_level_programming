@@ -35,7 +35,7 @@ void print_binary(unsigned long int n)
 
 	for (k = shift; k >= 0; k--)
 	{
-		if ((n >> K) & 1)
+		if ((n >> k) & 1)
 		{
 			putchar('1');
 		}
